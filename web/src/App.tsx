@@ -1,21 +1,8 @@
-interface ButtonProps {
-  title: string
-}
-
-function Button(props: ButtonProps) {
-  return (
-    <button>
-      {props.title}
-    </button>);
-}
+import './styles/main.css'
 
 function App() {
   return (
-    <div>
-      <Button title="Send 1" />
-      <Button title="Send 2" />
-      <Button title="Send 3" />
-      <Button title="Hello, world!" />
+    <div className="w-3 h-8 bg-violet-500">
     </div>);
 }
 
