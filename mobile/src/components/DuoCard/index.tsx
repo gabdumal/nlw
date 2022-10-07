@@ -1,7 +1,7 @@
 import { TouchableOpacity, View, Text } from "react-native";
 import { THEME } from "../../theme";
 import { DuoInfo } from "../DuoInfo";
-import { GameController } from "phosphor-react-native";
+// import { GameController } from "phosphor-react-native";
 
 import { styles } from "./styles";
 
@@ -38,7 +38,7 @@ export function DuoCard({ data, onConnect }: Props) {
       />
 
       <TouchableOpacity style={styles.button} onPress={onConnect}>
-        <GameController color={THEME.COLORS.TEXT} size={20} />
+        {/* <GameController color={THEME.COLORS.TEXT} size={20} /> */}
         <Text style={styles.buttonTitle}>Conectar</Text>
       </TouchableOpacity>
     </View>
